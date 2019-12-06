@@ -2,5 +2,9 @@
     "name": "Mockify",
     "version": "0.1",
     "description": "Turn a string into a Mocking Spongebob Case format",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
   }
