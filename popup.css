@@ -1,0 +1,38 @@
+body {
+  background-color: #e9e5e3;
+  color: #394545;
+}
+
+h1 {
+  color: #9e6228;
+}
+
+button > svg {
+  width: 25px;
+  height: 25px;
+  fill: #394545;
+}
+
+a > svg {
+  width: 15px;
+  height: 15px;
+  fill: #9e6228;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  font-size: large;
+  color: #394545;
+}
+
+.infolink {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: #c09e72;
+}
