@@ -1,6 +1,6 @@
   {
     "name": "Mockify",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Turn a string into a Mocking Spongebob Case format",
     "manifest_version": 2,
     "browser_action": {
