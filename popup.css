@@ -1,22 +1,21 @@
+:root {
+  --yellow: #FFFA75;
+  --pink: #FF74A0;
+}
+
 body {
-  background-color: #e9e5e3;
-  color: #394545;
+  background-color: var(--yellow);
+  color: var(--pink);
 }
 
-h1 {
-  color: #9e6228;
-}
-
-button > svg {
+svg {
+  fill: currentColor;
   width: 25px;
   height: 25px;
-  fill: #394545;
 }
 
-a > svg {
-  width: 15px;
-  height: 15px;
-  fill: #9e6228;
+.icon {
+  color: var(--pink);
 }
 
 button {
@@ -26,13 +25,14 @@ button {
 }
 
 input {
+  border-color: var(--pink);
+  border-style: solid;
   font-size: large;
-  color: #394545;
+  color: var(--pink);
 }
 
 .infolink {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  color: #c09e72;
 }
